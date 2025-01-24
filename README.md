@@ -1,4 +1,3 @@
-# README.md
 # SwiftUI Clock App
 
 A native iOS and macOS clock application built with SwiftUI, featuring World Clock, Alarm, Stopwatch, and Timer functionality.
@@ -26,8 +25,8 @@ git clone https://github.com/yourusername/ClockApp.git
 
 2. Open in Xcode
 ```bash
-cd ClockApp
-open ClockApp.xcodeproj
+cd Clock
+open Clock.xcodeproj
 ```
 
 ## Architecture
@@ -39,7 +38,7 @@ open ClockApp.xcodeproj
 
 ## Project Structure
 ```
-ClockApp/
+Clock/
 ├── App/
 │   └── ClockApp.swift
 ├── Models/
@@ -50,8 +49,8 @@ ClockApp/
 │   ├── AlarmViewModel.swift
 │   ├── StopwatchViewModel.swift
 │   └── TimerViewModel.swift
-├── Views/
-│   ├── Shared/
-│   ├── iOS/
-│   └── macOS/
+└── Views/
+    ├── Shared/
+    ├── iOS/
+    └── macOS/
 ```
