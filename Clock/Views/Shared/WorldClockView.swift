@@ -24,9 +24,6 @@ struct WorldClockView: View {
     }
     .navigationTitle("World Clock")
     .toolbar {
-#if os(iOS)
-      EditButton()
-#endif
       Button(action: addClock) {
         Image(systemName: "plus")
       }
