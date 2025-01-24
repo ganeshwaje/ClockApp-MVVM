@@ -19,14 +19,7 @@ playground.xcworkspace
 Packages/
 Package.pins
 Package.resolved
-*.xcodeproj
 
-# CocoaPods
-Pods/
-*.xcworkspace
-
-# Carthage
-Carthage/Build/
 
 # fastlane
 fastlane/report.xml
@@ -45,9 +38,6 @@ injected_container.swift
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# SwiftUI Preview Content
-**/Preview Content/
 
 # Environment variables
 .env
