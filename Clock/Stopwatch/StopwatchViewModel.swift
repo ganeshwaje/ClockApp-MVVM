@@ -19,7 +19,7 @@ class StopwatchViewModel: ObservableObject {
     let minutes = Int(elapsedTime) / 60
     let seconds = Int(elapsedTime) % 60
     let milliseconds = Int((elapsedTime.truncatingRemainder(dividingBy: 1)) * 100)
-    return String(format: "%02d:%02d.%02d", minutes, seconds, milliseconds)
+    return String(format: "%02d:%02d:%02d", minutes, seconds, milliseconds)
   }
   
   func toggleTimer() {
@@ -58,5 +58,19 @@ class StopwatchViewModel: ObservableObject {
     elapsedTime = 0
     lastLapTime = 0
     laps.removeAll()
+  }
+}
+
+extension StopwatchViewModel {
+  var seconds: Double {
+    elapsedTime.truncatingRemainder(dividingBy: 60)
+  }
+  
+  var minutes: Double {
+    (elapsedTime / 60).truncatingRemainder(dividingBy: 60)
+  }
+  
+  var hours: Double {
+    elapsedTime / 3600
   }
 }

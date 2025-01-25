@@ -37,3 +37,7 @@ struct iOSAlarmApp: View {
     .accentColor(.orange)
   }
 }
+
+#Preview {
+  iOSAlarmApp()
+}

@@ -2,7 +2,7 @@
 //  TimerViewModel.swift
 //  Clock
 //
-//  Created by Ganesh Waje on 24/01/25.
+//  Created by Ganesh Waje on 25/01/25.
 //
 
 import Foundation
