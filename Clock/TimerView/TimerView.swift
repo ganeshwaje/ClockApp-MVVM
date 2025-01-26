@@ -59,6 +59,7 @@ struct TimerView: View {
         }
       }
       .pickerStyle(MenuPickerStyle())
+      Spacer()
     }
     .padding()
   }
